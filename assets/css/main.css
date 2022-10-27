@@ -1,0 +1,36 @@
+/*================= Variables CSS ===================*/
+:root{
+    
+    --header-heigth: 3rem;
+    /*================= Colors ===================*/
+    --hue-color: 250; 
+
+    --first-color: #707070;
+    --second-color: #e46c64;
+    --background-color: #fce8e6;
+    --favorite-color: #e5cd15;
+    --icon-first-color-png: invert(45%) sepia(0%) saturate(2%) hue-rotate(27deg) brightness(97%) contrast(91%);
+    --icon-second-color-png: invert(54%) sepia(63%) saturate(1301%) hue-rotate(321deg) brightness(97%) contrast(83%);
+
+}
+
+
+body {
+    padding-top: 5rem;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.icon-color{
+    filter: var(--icon-first-color-png);
+    width: 8%;
+}
+
+
+.btn-nav-style{
+    border-radius: 1.2rem;
+    width: 12.1rem;
+    height: 2.7rem;
+    border-color: var(--first-color);
+}
